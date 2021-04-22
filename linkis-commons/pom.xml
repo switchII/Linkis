@@ -3,9 +3,9 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>linkis</artifactId>
         <groupId>com.webank.wedatasphere.linkis</groupId>
-        <version>1.0.0-RC1</version>
+        <artifactId>linkis</artifactId>
+	    <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -13,8 +13,12 @@
 
     <artifactId>linkis-commons</artifactId>
     <packaging>pom</packaging>
+    
     <modules>
         <module>linkis-common</module>
+        
+        <!-- 
+        
         <module>linkis-hadoop-common</module>
         <module>linkis-httpclient</module>
         <module>linkis-protocol</module>
@@ -24,6 +28,8 @@
         <module>linkis-rpc</module>
         <module>linkis-message-scheduler</module>
         <module>linkis-storage</module>
+        -->
+        
     </modules>
 
 </project>

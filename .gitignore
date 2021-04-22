@@ -1,7 +1,8 @@
 *.iml
 .idea
 .DS_Store
-
+.settings
+.project
 
 out/
 linkis.ipr
@@ -104,3 +105,4 @@ assembly/target
 assembly/public-module/target/
 
 
+/.project
